@@ -26,6 +26,8 @@ public class PrimerPrograma {
         }else{
             System.out.println("No es un numero par");
         }
+        
+        System.out.println("--PACMAN--");
     }
     
 }
