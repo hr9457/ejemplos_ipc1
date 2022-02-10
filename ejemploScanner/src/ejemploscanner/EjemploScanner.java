@@ -60,6 +60,13 @@ public class EjemploScanner {
         } else {
             System.out.println("movimiento no valido");
         }
+        
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
     }
     
 }
