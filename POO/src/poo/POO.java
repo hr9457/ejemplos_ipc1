@@ -16,6 +16,27 @@ public class POO {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //variable
+        int dpi= 123;
+        
+        // tipo nombre
+        Usuario admnistrador = new Usuario(345,"Luis","pacheco","999");
+        Usuario usuario1 = new Usuario(dpi,"Juan","Perez","123");
+        
+        
+        System.out.println("Nombre:  "+admnistrador.getNombreUsuario());
+        System.out.println("Apellido:  "+admnistrador.getApellidoUsuario());
+        System.out.println("DPI:  "+admnistrador.getDpi());
+        
+        admnistrador.setNombreUsuario("Thanos");
+        
+        System.out.println("************************************************");
+        System.out.println("Nombre:  "+admnistrador.getNombreUsuario());
+        System.out.println("Apellido:  "+admnistrador.getApellidoUsuario());
+        System.out.println("DPI:  "+admnistrador.getDpi());
+        admnistrador.comer();
+        
+        
         // creando objetos de tipo perro utilizando la clase Perro
         Perro perro1 = new Perro("Rodolfo","negro",10);
         Perro perro2 = new Perro("Aisha","blanco",5);
@@ -83,6 +104,10 @@ public class POO {
             System.out.println("");
         }
         
+        
+        // llamando a mi ventana
+        Formulario ventana = new Formulario();
+        ventana.setVisible(true);
         
     }
     
