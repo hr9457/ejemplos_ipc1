@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package herencia;
+
+/**
+ *
+ * @author joshu
+ */
+public class Herencia {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Persona juan = new Persona();
+        juan.getApellido();
+        
+        Empleado luis = new Empleado(123, "Luis", "Mendez", 1000, 0);
+        luis.getApellido();
+        luis.getSueldo();
+    }
+    
+}
