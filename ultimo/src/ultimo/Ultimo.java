@@ -1,6 +1,7 @@
 package ultimo;
 
 // importaciones
+import Ejemplo.*;
 import Usuarios.Persona;
 import Privado.Banco;
 import Protegido.*;
@@ -11,6 +12,7 @@ public class Ultimo {
     public static void main(String[] args) {
         // TODO code application logic here
         
+               
         Persona persona1 = new Persona(20,"juan",true);
         System.out.println(persona1.isMayorEdad());
         
